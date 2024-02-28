@@ -1,3 +1,9 @@
 #!/bin/bash
 
-echo Hello World!
+cur=1
+
+while [[ "$cur" -lt 11 ]];
+do
+	echo "$cur"
+	cur=$((cur + 1))
+done
